@@ -3,7 +3,7 @@
 This repository contains the simulation study materials used in Qidi Peng, Eric Zhang, and Tong Zhen's paper, titled "On Model Selection Consistency of ls-regularized Linear Models with s ∈ (0, 1).", including
 
 * original R code rendition of the simulation study program
-* Python-adapted rendition of the simulation study program
+* Python-adapted rendition of the simulation study program (PENDING)
 * seeded code and figures for repeatability
 
 
