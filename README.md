@@ -1,6 +1,7 @@
 # lˢ-Regularized Linear Models: Model Selection Consistency (s ∈ (0,1))
 
 This repository contains the simulation study materials used in Qidi Peng, Eric Zhang, and Tong Zhen's paper, titled "On Model Selection Consistency of ls-regularized Linear Models with s ∈ (0, 1)."
+This repository includes our simulation study code, seeds for repeatability, and  
 
 ### **Citation**
 As this is a supplementary simulation study for our paper, to cite this project, cite the published paper.\
@@ -22,7 +23,7 @@ Chrome/146.0.7680.216 Electron/41.5.0 Safari/537.36, Quarto 1.9.37
 &nbsp;&nbsp;&nbsp;&nbsp;  - glmnet (version 5.0)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Install with:
-&nbsp;&nbsp;&nbsp;&nbsp;  install.packages("glmnet")
+&nbsp;&nbsp;&nbsp;&nbsp;  ```install.packages("glmnet")```
 
 ### **How to Run**
 (ADD WHEN REPOSITORY IS FULLY ORGANIZED)
