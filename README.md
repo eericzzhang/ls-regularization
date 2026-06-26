@@ -385,7 +385,7 @@ Claremont, CA 91711, U.S.A.\
 qidi.peng@cgu.edu
 
 Eric Zhang\
-University of California, Los Angeles\
+College of Letters and Science, University of California, Los Angeles\
 Los Angeles, CA 90095, U.S.A.\
 eericzhang@g.ucla.edu
 
