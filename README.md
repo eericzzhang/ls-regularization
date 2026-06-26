@@ -19,7 +19,8 @@ This repository contains the R implementation of the simulation study from Peng,
 (ADD THIS WHEN THE ENTIRE RESPOSITORY IS SET UP)
 
 ### **Requirements to Run**
-RStudio 2026.05.1+225 "Golden Wattle" Release (89e0c7da7b7b806fc5701ecb567f993716d8cfdc, 2026-06-07) for windows\
+For R:
+- RStudio 2026.05.1+225 "Golden Wattle" Release (89e0c7da7b7b806fc5701ecb567f993716d8cfdc, 2026-06-07) for windows\
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) RStudio/2026.05.1+225\
 Chrome/146.0.7680.216 Electron/41.5.0 Safari/537.36, Quarto 1.9.37
 
@@ -29,7 +30,8 @@ Chrome/146.0.7680.216 Electron/41.5.0 Safari/537.36, Quarto 1.9.37
 &nbsp;&nbsp;&nbsp;&nbsp;Install with:
 &nbsp;&nbsp;&nbsp;&nbsp;  ```install.packages("glmnet")```
 
-***ADD PYTHON DETAILS LATER***
+For Python: 
+- ***ADD PYTHON DETAILS LATER***
 
 ### **How to Run Simulation Study in R**
 Begin by opening the attached gen2026 code from the GitHub repository, then install and load the glmnet package
