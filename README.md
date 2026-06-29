@@ -16,7 +16,34 @@ Preprint submitted to Electronic Journal of Statistics. (NOT PUBLISHED YET, NO F
 This repository contains the R implementation of the simulation study from Peng, Zhang & Zeng (2026). It provides the core lˢ coordinate descent solver (Algorithm 2), a cross-validation tuning routine for the penalty parameters s and λ, and three reproducible simulation examples comparing the lˢ-regularized model against the Lasso. The code supports the paper's central claim that lˢ regularization achieves variable selection consistency without requiring the Strong Irrepresentable Condition.
 
 ### **Repository Structure**
-(ADD THIS WHEN THE ENTIRE RESPOSITORY IS SET UP)
+> ls-regularization\
+│\
+├── seededfiguresPY\
+│   ├── figure_1_1_1_lasso.png\
+│   ├── figure_1_1_2_ls.png\
+│   ├── figure_1_2_1_lasso.png\
+│   ├── figure_1_2_2_ls.png\
+│   ├── figure_2_1_1_ls.png\
+│   ├── figure_2_1_2_lasso.png\
+│   ├── figure_2_2_1_ls.png\
+│   ├── figure_2_2_2_lasso.png\
+│   └── figures_combined.pdf\
+│\
+├── seededfiguresR\
+│   ├── figure_1_1_1_lasso.png\
+│   ├── figure_1_1_2_ls.png\
+│   ├── figure_1_2_1_lasso.png\
+│   ├── figure_1_2_2_ls.png\
+│   ├── figure_2_1_1_ls.png\
+│   ├── figure_2_1_2_lasso.png\
+│   ├── figure_2_2_1_ls.png\
+│   ├── figure_2_2_2_lasso.png\
+│   └── figures_combined.pdf\
+│\
+├── PYgen2026 code.py\
+├── Rgen2026 code.R\
+└── README.md
+
 
 ### **Requirements to Run**
 For R:
