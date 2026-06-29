@@ -68,6 +68,8 @@ c(beta0,beta);
 }
 ```
 
+Tune the parameters via the test MSE
+
 ```
 tune_s_lambda = function(X,Y,S,L,beta,nstep,a) {
   R = matrix(rep(10^8,S*L),ncol = L);
