@@ -3,14 +3,14 @@
 This repository contains the simulation study materials used in Qidi Peng, Eric Zhang, and Tong Zhen's paper, titled "On Model Selection Consistency of ls-regularized Linear Models with s ∈ (0, 1).", including
 
 * original R code rendition of the simulation study program
-* Python-adapted rendition of the simulation study program (PENDING)
+* Python-adapted rendition of the simulation study program
 * seeded code and figures for repeatability
 
 
 ### **Citation**
-As this is a supplementary simulation study for our paper, to cite this project, cite the published paper.\
+As this is a supplementary simulation study for our paper, to cite this project, cite the published paper (when it is hopefully published, at least). \
 Peng, Q., Zhang, E., & Zeng, T. (2026). On Model Selection Consistency of lˢ-regularized Linear Models with s ∈ (0,1). 
-Preprint submitted to Electronic Journal of Statistics. (NOT PUBLISHED YET, NO FORMAL CITATION, EDIT LATER)
+Preprint submitted to Electronic Journal of Statistics.
 
 ### **Overview**
 This repository contains the R implementation of the simulation study from Peng, Zhang & Zeng (2026). It provides the core lˢ coordinate descent solver (Algorithm 2), a cross-validation tuning routine for the penalty parameters s and λ, and three reproducible simulation examples comparing the lˢ-regularized model against the Lasso. The code supports the paper's central claim that lˢ regularization achieves variable selection consistency without requiring the Strong Irrepresentable Condition.
