@@ -41,8 +41,8 @@ This repository contains the R implementation of the simulation study from Peng,
 │   └── figures_combined.pdf\
 │\
 ├── PYgen2026 code.py\
-├── Rgen2026 code.R\
-└── README.md
+├── README.md\
+└── Rgen2026 code.R
 
 
 ### **Requirements to Run**
