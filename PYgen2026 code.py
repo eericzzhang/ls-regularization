@@ -109,15 +109,6 @@ def tune_s_lambda(X, Y, S, L, beta, nstep, a, seed=None):
 #  Helper: Lasso with CV  (mirrors cv.glmnet + glmnet in R)
 # ──────────────────────────────────────────────────────────────────────────────
 
-"""
-    Equivalent to R's:
-        cv_model   = cv.glmnet(X, Y, alpha=1)
-        best_model = glmnet(X, Y, alpha=1, lambda=cv_model$lambda.min)
-        coef(best_model)
-
-    Returns length-(d+1) array [intercept, β₁, …, β_d].
-    """
-
 def run_lasso_cv(X, Y, seed=3):
     cv = LassoCV(
         cv=10,

@@ -31,10 +31,16 @@ Chrome/146.0.7680.216 Electron/41.5.0 Safari/537.36, Quarto 1.9.37
 &nbsp;&nbsp;&nbsp;&nbsp;  ```install.packages("glmnet")```
 
 For Python: 
-- ***ADD PYTHON DETAILS LATER***
+- Python version 3.8 or higher
+
+&nbsp;&nbsp;&nbsp;&nbsp;Required packages:
+&nbsp;&nbsp;&nbsp;&nbsp; -  numpy, matplotlib, scikit-learn
+
+&nbsp;&nbsp;&nbsp;&nbsp;Install with:
+&nbsp;&nbsp;&nbsp;&nbsp;   ```pip install numpy matplotlib scikit-learn```
 
 ### **How to Run Simulation Study in R**
-Begin by opening the attached gen2026 code from the GitHub repository, then install and load the glmnet package
+Begin by opening the attached Rgen2026 code from the GitHub repository, then install and load the glmnet package
 
 ```
 install.packages("glmnet") 
@@ -373,11 +379,20 @@ SIC;
 ```
 
 ### **How to Run Simulation Study in Python**
-(ADD WHEN PYTHON IS SET UP)
+Begin by loading the required packages
+
+```
+pip install numpy matplotlib scikit-learn 
+```
+
+The entire script is self-contained. Running it in any terminal will create all 8 figures saved as .png files to the directory. As figures display interactively as the script runs, you must close each plot window manually before the script can continue to the next step. 
+
+> Each randomizer in this script is seeded in the same way as in the R rendition, with Seeds $1$ through $4$ in examples 1.1 and 1.2, and seeds $1$ and $2$ used in examples 2.1 and 2.2. \
+Note that even though both scripts use the same seeds, their results can still vary, as they do here. 
 
 
 ### **Simulation Study Results**
-Inside the [seeded figures](seededfigures) folder contains all of our simulation study results in the form of pngs and a combined pdf for ease of viewing. 
+Inside the [seeded figuresPY](seededfiguresPY) and [seeded figuresR](seededfiguresR) folders contains all of our simulation study results in the form of .pngs and a combined pdf for ease of viewing for the Python and R renditions respectivley. 
 
 
 ## **Contacts**
