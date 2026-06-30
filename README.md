@@ -13,7 +13,7 @@ Peng, Q., Zhang, E., & Zeng, T. (2026). On Model Selection Consistency of lˢ-re
 Preprint submitted to Electronic Journal of Statistics.
 
 ### **Overview**
-This repository contains an R and Python simulation study from Peng, Zhang & Zeng (2026). It provides the core lˢ coordinate descent solver (Algorithm 2), a cross-validation tuning routine for the penalty parameters s and λ, and three reproducible simulation examples comparing the lˢ-regularized model against the Lasso. The code supports the paper's central claim that lˢ regularization achieves variable selection consistency without requiring the Strong Irrepresentable Condition.
+This repository contains the R and Python iterations of the simulation study from Peng, Zhang & Zeng (2026). It provides the core lˢ coordinate descent solver (Algorithm 2), a cross-validation tuning routine for the penalty parameters s and λ, and three reproducible simulation examples comparing the lˢ-regularized model against the Lasso. The code supports the paper's central claim that lˢ regularization achieves variable selection consistency without requiring the Strong Irrepresentable Condition.
 
 ### **Repository Structure**
 >ls-regularization\
